@@ -4,10 +4,12 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs;
+  Dialogs, Ribbon, RibbonLunaStyleActnCtrls;
 
 type
   TFormPrincipal = class(TForm)
+    Ribbon1: TRibbon;
+    RibbonPage1: TRibbonPage;
   private
     { Private declarations }
   public
